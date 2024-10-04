@@ -1,0 +1,75 @@
+{
+  "home": {
+    "title": "Welcome to MechaEngineer",
+    "subtitle": "Innovative mechatronics solutions for the future. Bridging the gap between mechanical, electrical, and software engineering.",
+    "ctaText": "Learn More",
+    "ctaLink": "/about"
+  },
+  "about": {
+    "title": "About Me",
+    "background": {
+      "title": "Background",
+      "paragraphs": [
+        "With over a decade of experience in mechatronics engineering, I've developed a passion for creating innovative solutions that seamlessly integrate mechanical, electrical, and software components. My journey began with a degree in Mechanical Engineering, followed by a Master's in Robotics and Automation.",
+        "Throughout my career, I've worked on diverse projects ranging from industrial automation systems to cutting-edge robotic applications in healthcare and aerospace industries."
+      ]
+    },
+    "expertise": {
+      "title": "Expertise",
+      "skills": [
+        "Robotics and autonomous systems",
+        "Embedded systems design and programming",
+        "Sensor integration and data acquisition",
+        "Control systems and motion control",
+        "IoT and smart device development",
+        "3D modeling and rapid prototyping",
+        "Machine learning for mechatronic systems"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "title": "Autonomous Warehouse Robot",
+      "description": "Developed an AI-powered robot for efficient inventory management and order fulfillment in large warehouses.",
+      "image": "https://images.unsplash.com/photo-1581093458791-9f3c3250a8ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "title": "Smart Prosthetic Arm",
+      "description": "Designed a neural network-controlled prosthetic arm with advanced sensory feedback for improved user experience.",
+      "image": "https://images.unsplash.com/photo-1581093458791-9f3c3250a8ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "title": "Automated Vertical Farming System",
+      "description": "Created an IoT-based vertical farming solution for urban agriculture, optimizing plant growth and resource usage.",
+      "image": "https://images.unsplash.com/photo-1581093458791-9f3c3250a8ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    }
+  ],
+  "services": [
+    {
+      "title": "Mechatronic System Design",
+      "description": "Custom design and integration of mechanical, electrical, and software components for innovative solutions.",
+      "icon": "Cog"
+    },
+    {
+      "title": "Robotics Consulting",
+      "description": "Expert advice on robotics implementation, from concept to deployment, tailored to your specific needs.",
+      "icon": "Lightbulb"
+    },
+    {
+      "title": "Automation Solutions",
+      "description": "Development of automated systems to improve efficiency and productivity in various industries.",
+      "icon": "Wrench"
+    },
+    {
+      "title": "IoT Integration",
+      "description": "Seamless integration of IoT technologies into existing systems or new product development.",
+      "icon": "Cpu"
+    }
+  ],
+  "contact": {
+    "title": "Contact Me",
+    "submitButtonText": "Send Message",
+    "successMessage": "Thank you for your message! I will get back to you soon.",
+    "errorMessage": "Oops! Something went wrong. Please try again later."
+  }
+}

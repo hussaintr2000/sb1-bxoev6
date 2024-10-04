@@ -1,0 +1,53 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}
+
+/* Custom color palette */
+:root {
+  --color-primary: #3B82F6;
+  --color-secondary: #10B981;
+  --color-accent: #F59E0B;
+  --color-background: #F3F4F6;
+  --color-text: #1F2937;
+}
+
+.dark {
+  --color-primary: #60A5FA;
+  --color-secondary: #34D399;
+  --color-accent: #FBBF24;
+  --color-background: #111827;
+  --color-text: #F9FAFB;
+}
+
+/* Apply custom colors */
+.bg-primary { background-color: var(--color-primary); }
+.bg-secondary { background-color: var(--color-secondary); }
+.bg-accent { background-color: var(--color-accent); }
+.text-primary { color: var(--color-primary); }
+.text-secondary { color: var(--color-secondary); }
+.text-accent { color: var(--color-accent); }
+
+/* Gradient backgrounds */
+.bg-gradient-1 {
+  background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+}
+
+.bg-gradient-2 {
+  background: linear-gradient(45deg, var(--color-secondary), var(--color-accent));
+}
+
+/* Add more custom styles as needed */
